@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 900px;
+    width: 80%;
+    margin: 20px auto;
+    background-color: whitesmoke;
+}
+
+.h-1 {
+    font-size: 25px;
+}
+
+#logo img {
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    background-color: #13274F;
+    border-radius: 4px;
+    color: #fff;
+    
+} 
+
+.info-text {
+    text-align: center;
+}
+.info-text p {
+    margin-top: -3%;
+}
+
+.info img {
+    display: block;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+}
+
+.contact-details {
+    margin-top: 20px;
+}
+
+.contact-details a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.info-contact {
+    font-weight: bold;
+}
+
+.profile {
+    display: flex;
+    margin-left: 2%;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+    margin-top: 20px;
+}
+
+.profile-info {
+    width: 50%;
+    text-align: left;
+}
+
+.side {
+    width: 45%;
+}
+/* .profile-info h2 {
+    text-align: center;
+} */
+
+.profile-info h5 {
+    margin-top: -3%;
+}
+
+.profile-info p {
+    line-height: 25px;
+}
+
+.small {
+    font-size: 12px;
+    color: grey;
+    margin-top: -5%;
+}
+
+/* .profile-info:nth-child(2) {
+    margin-left: 10px;
+} */
+
+.profile-info ul li {
+    text-align: left;
+    list-style: none;
+    padding-bottom: 10px;
+    margin-left: -40px;
+}
+
+.reference {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -5%;
+}
+
+.reference p {
+    margin-top: -2%;
+}
+
+#ref-heading {
+    text-align: center;
+}
+
+@media (max-width:600px) {
+    .container {
+        width: 95%;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+    
+    .info {
+        flex-direction: column;
+    }
+
+    .info img {
+        width: 40%;
+        height: 40%;
+        /* margin: auto; */
+    }
+
+    .contact-details {
+        margin: auto;
+    }
+
+    .profile {
+        text-align: center;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    .profile-info:first-child {
+        border-right: none;
+        border-bottom: 1px solid #3f4f13;
+    }
+
+    .profile-info {
+        width: 100%;
+    }
+
+    .profile-info h2 {
+        text-align: center;
+    }
+
+    /* .profile-info ul li {
+        margin-left:5%;
+    } */
+    
+
+}
