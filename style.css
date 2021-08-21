@@ -8,6 +8,7 @@ body {
     max-width: 900px;
     width: 80%;
     margin: 20px auto;
+    /* height: 100%; */
     background-color: whitesmoke;
 }
 
@@ -107,7 +108,8 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-top: -5%;
+    margin-top: -2%;
+    margin-bottom: 20px;
 }
 
 .reference p {
